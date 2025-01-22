@@ -1,0 +1,12 @@
+{
+  "compilerOptions": {
+    "outDir": "./dist",            // Specifies the output folder for compiled files
+    "rootDir": "./src",            // Sets the root directory for input files
+    "strict": true,                // Enables strict type checking options
+    "module": "commonjs",          // Specifies module code generation
+    "target": "ES6",               // Specifies ECMAScript target version
+    "esModuleInterop": true        // Ensures interoperability with CommonJS modules
+  },
+  "include": ["src/**/*"],         // Specifies the files or folders to include
+  "exclude": ["node_modules"]      // Excludes unnecessary files
+}
